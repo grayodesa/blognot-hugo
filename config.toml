@@ -36,7 +36,7 @@ enableEmoji = true
 [[Params.widgets.social.custom]]
   title = "Youtube"
   url = "https://www.youtube.com/c/grayru"
-  #icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
+  icon = "svg/youtube.svg" # Optional. Path relative to "layouts/partials"
 
 [Params]
 opengraph = true # Enable OpenGraph if true
