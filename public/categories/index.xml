@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on БлоGнот</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on БлоGнот</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    <lastBuildDate>Sat, 20 Mar 2021 23:17:51 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Без рубрики</title>
+      <link>/categories/%D0%B1%D0%B5%D0%B7-%D1%80%D1%83%D0%B1%D1%80%D0%B8%D0%BA%D0%B8/</link>
+      <pubDate>Sat, 20 Mar 2021 23:17:51 +0000</pubDate>
+      
+      <guid>/categories/%D0%B1%D0%B5%D0%B7-%D1%80%D1%83%D0%B1%D1%80%D0%B8%D0%BA%D0%B8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uncategorized</title>
+      <link>/categories/uncategorized/</link>
+      <pubDate>Mon, 26 Aug 2013 07:57:49 +0000</pubDate>
+      
+      <guid>/categories/uncategorized/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

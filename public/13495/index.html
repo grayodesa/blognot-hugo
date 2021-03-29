@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Abuse и прочая безопасность - БлоGнот</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="БлоGнот" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">БлоGнот</div>
+					
+				</div>
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Abuse и прочая безопасность</h1>
+			
+		</header><div class="content post__content clearfix">
+			<p>Столкнулся с интересным опытом. У нас на форуме регулярно случаются DDOS-атаки — когда я говорю «регулярно», я имею в виду, что в среднем это происходит несколько раз в месяц, а то и чаще. В-общем, это даже не событие для нас — еще раньше, когда с этим приходилось справляться самостоятельно, у нас были довольно развитые способы зафильтровать трафик на уровне серверов, в тяжелых случаях звали на помощь инженеров датацентра, а после широкого распространения сервисов защиты и, в частности, Cloudflare, алгоритм вообще элементарен — взвел режим «Under attack!» и сел смотреть, что в логах делается и чем на этот раз доморощенные хакеры пробавляются.</p>
+<p>Одна такая атака от обиженного на форуме пользователя у нас проходила всю прошлую неделю. Причем включение защиты её прекращала моментально, но до этого товарищ умудрялся сгенерировать очень немалый трафик — десятки миллионов запросов в час, а то и сотни. Анализ логов показал, что трафик генерировался не ботнетом, как это обычно делают при DDOS, а сеткой серверов. То есть с одного IP прилетало по миллиону запросов — скрипту ж на сервере ничего не мешает, полосы у него много, вот и грузит, сколько может.</p>
+<p>Но в этом есть и обратная сторона — в отличие от анонимного ботнета, хостинг анонимным бывает редко. Поэтому мы хоть и совершенно спокойно продолжали работать под защитой, но все же решили испортить праздник вседозволенности и написали на abuse-адреса наугад выбранных сетей.</p>
+<p>И вот статистика ответов наводит на размышления. Жалобы были отправлены — Google Cloud, крупный британский хостинг, небольшой российский хостинг, Мастерхост и сам Cloudflare, через который как-то тоже просачивались запросы.</p>
+<p>Оперативнее всего отреагировал Мастерхост, который через пару часов ответил, что аккаунт заблокирован. Небольшой российский хостинг ответил «Посмотрим, отправлено с мобильного телефона». Уж не знаю, что они там посмотрели, но время реакции было порядка полутора суток.</p>
+<p>Google Cloud ответил шаблонным ответом через <strong>три дня</strong> после репорта — мол, спасибо, мы будем разбираться, но вы не сомневайтесь, что мы strongly commited в части безопасности и так далее. Крупный британский хостинг не ответил пока вообще. Как и сам Cloudflare.</p>
+<p>Я, честно говоря, немного удивлен. То есть совершенно не удивлен Мастерхостом — я хорошо помню, как оперативно мне присылали жалобы, когда мы там размещались, и как разбирались в проблемах. Но вот большие западные компании — это у них так плохо функция ответа работает или они и на сами проблемы так вальяжно реагируют?</p>
+
+		</div>
+	</article>
+</main>
+
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 БлоGнот.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>

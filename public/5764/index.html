@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title> - БлоGнот</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="БлоGнот" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">БлоGнот</div>
+					
+				</div>
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title"></h1>
+			
+		</header><div class="content post__content clearfix">
+			<p>И еще раз о Линуксе. Те, кому это надоело, могут пропустить.<br>
+Я еще раз поборол Gentoo — победа далась труднее, но и результаты гораздо более впечатляющие. Итак, Gentoo теперь стоит на ноутбуке, с которого и пишется этот пост.<br>
+Собственно установка системы — с компиляцией ядра и основными устройствами — прошла относительно гладко. Борьба началась чуть позже — когда подошла очередь настройки сети.<br>
+Отвлекусь на секунду, дабы выразить праведное желание оторвать пару рук тем, кто собирал дистрибутив Gentoo. Я уже упоминал тот факт, что версии пакетов в срезе различаются с фактическими версиями того софта, что вошел в PackagesCD, в итоге, например, установка KDE или Gnome обязательно вылетит на установке MySQL — зависимости требуют версии 4.0.22, а на диске есть 4.0.24. Но xscreensaver вообще отсутствует на диске. Больше всего эмоций у меня вызвал скромный XML::Parser. Он абсолютно точно ставился вместе со всеми модулями перла — но его в упор не видел ни logjam, ни Nautilus. Переустановка не помогла. Помогла установка его не из ebuild на диске, а из исходников через Интернет — почему, скажите, пожалуйста?<br>
+Настройка сети — а в ноутбуке она присутствует в виде PCMCIA-карты wi-fi — тоже заставила вспомнить незлым тихим словом составителей дистрибутива. Очень интересно, как они себе представляют установку системы на ноутбуке — большинство wi-fi карт заводятся под Линуксом только с использованием ndiswrapper, а как раз его-то и нет в дистрибутиве. Получается безвыходная ситуация — чтобы завести сеть, надо вылезти в инет, а чтобы туда вылезти, надо завести сеть. Альтернатив никаких — впрочем, можно было скомпилировать драйвер для Ethernet-PCMCIA карты. Из исходников. Пришлось сделать проще — скачать требуемые пакеты на десктоп и перетащить их с помощью дискеты на ноутбук. Потом было довольно волнительное состояние, когда modprobe ndiswrapper намертво вешало систему — пока я не вспомнил, что рекомендовалась к использованию версия .inf-файла под именно Windows98. Тоже не очень простая задача — как найти файл, на который никто не дает ссылок, но нашел. Заработало. И сеть я в итоге завел.<br>
+Дальше уже было гораздо проще. Firefox, Thunderbird, logjam, Gaim, OpenOffice — практически по накатанной. Осталось лишь разобраться с Power Management — ноутбук все же. Меня, правда, терзают смутные сомнения — а вкомпилила ли genkernel поддержку ACPI в ядро?</p>
+
+		</div>
+	</article>
+</main>
+
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 БлоGнот.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>

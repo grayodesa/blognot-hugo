@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Так вот, по поводу перезда - БлоGнот</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="БлоGнот" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">БлоGнот</div>
+					
+				</div>
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Так вот, по поводу перезда</h1>
+			
+		</header><div class="content post__content clearfix">
+			<p>Так вот, по поводу перезда Movable Type. До начала этой операции мне казалась абсолютно логичной мысль, что проблем быть не должно — это ж не Windows, где существует еще таинственный реестр, и не бинарные исполняемые файлы, которые в Юниксе надо компилировать на конкретной машине. Есть файлы скрипта, есть файлы данных, перенести, мол, их на новое место, прописать заново пути и готово.<br>
+Что интересно — для форума и баннерной крутилки это сработало на ура — перетащили себе скрипты, сделали дампы mySQL баз на старом сервере, влили их на новом и все заработало. На переключение форума у меня ушло минут 25 — из которых минут 10 дамп сжимался на старом сервере, а потом еще минут 5 разжимался на новом, плюс минуты 3-4 он качался с сервера на сервер. А вот для MovableType этот вариант не прошел.<br>
+Для начала скопированные файлы отказались работать. Т.е. скрипт отвечал отказом на попытку залогиниться в систему и вообще сообщал, что не знает такого пользователя. Руководствуясь священным принципом «Я не первым наступаю на грабли», я отправился читать форум поддержки и мануал. Действительно, проблема известна и вызывает ее различие версий Berkeley DB на серверах. Мне не понять, почему разработчики этой базы не могут обеспечить совместимость форматов — при том, что у mySQL 5-й версии не возникает никаких проблем прочесть базу, созданную 3-й версией, — ну да ладно. Поскольку проблема была известна, было и решение — проапгрейдить базу утилитой db_upgrade. И тут начались первые грабли.<br>
+Эта утилита работать отказалась. Второй способ заключался в ручной выгрузке данных из файлов базы и загрузке их обратно. Неа, не вышло.<br>
+Третий способ заключался в переходе на mySQL. Для этого надо было на старом сервере сконвертировать базу и перенос становился простым и легким. Ага, щаз, как говорит Задорнов. Данный блог — а он стоит на отдельной инсталляции, — конвертироваться в mySQL отказался наотрез. Ошибка при загрузке данных и все тут. Кстати, неизвестно, что лучше — вторая инсталляция сконвертировала базу и вылез очередной глюк — Movable Type на новом сервере не может понять кодировку базы. Сейчас воюем с этим.<br>
+В итоге пришлось пойти тупым лобовым путём — экспортировать все записи из блога на старом сервере, вручную перенести все шаблоны и импортировать записи на новом сервере. Кстати, попутно прибил дубликаты записей, возникшие при переходе на новую версию.<br>
+В общем, главный вывод, который лучше сделать как можно раньше при работе с Movable Type — отказывайтесь от использования Berkeley DB. Никакого особого преимущества это не дает — если вы генерите статические страницы в блоге, то процессор с любой базой грузится лишь при новых постах, а проблемы, как видно, создать может вполне ощутимые из-за своих особенностей. В отличие от нее, mySQL база легче переносится, ею легче управлять — phpmyadmin очень многое позволяет сделать, — да и в любом случае она на сервере уже есть практически всегда.<br>
+Так что рекомендую.</p>
+
+		</div>
+	</article>
+</main>
+
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 БлоGнот.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>

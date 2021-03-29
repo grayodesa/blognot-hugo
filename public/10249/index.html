@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Как установить кнопки социальных сервисов - БлоGнот</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="БлоGнот" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">БлоGнот</div>
+					
+				</div>
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Как установить кнопки социальных сервисов</h1>
+			
+		</header><div class="content post__content clearfix">
+			<p>Спасибо за вопрос в комментариях, как же поставить кнопки социальных сервисов на блог — он мне напомнил время, которое я потратил на нахождение соответствующих кодов и захотелось это время остальным сэкономить. Хотя в этом ничего сложного, конечно, нет.</p>
+<p>Практически все кнопки умеют распознавать адрес страницы, на которой стоят — поэтому, если вы их ставите только на страницу непосредственного сообщения, <!-- raw HTML omitted -->каких-либо<!-- raw HTML omitted --> модификаций не понадобится. Если вы их хотите поставить, скажем, на главную страницу блога под каждым сообщением, тогда придется повозиться и научиться указывать дополнительным параметром в коде вызова URL отдельного сообщения. Впрочем, это несложно — в Movable Type за это отвечает тег &lt;$mt:EntryPermalink$&gt;, а в Wordpress надо указать <!-- raw HTML omitted -->.</p>
+<p>Итак, начнем с любимого твиттера. Мониторить ретвиты удобно через сервис TweetMeme, который в <!-- raw HTML omitted -->специальном разделе<!-- raw HTML omitted --> описывает возможные варианты. В самом простом виде вам достаточно вставить в код страницы следующее:</p>
+<blockquote>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</blockquote>
+<p>Чтобы поставить компактную кнопку и прописать другой адрес, код надо изменить:</p>
+<blockquote>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted --> tweetmeme_url = ‘http://yoururl.com’; тут указываете свой адрес<!-- raw HTML omitted --> tweetmeme_style = ‘compact’; определяет компактный стиль кнопки<!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</blockquote>
+<p>Любители в Wordpress все делать плагинами могут использовать <!-- raw HTML omitted -->специальный плагин<!-- raw HTML omitted -->.</p>
+<p>С ВКонтакте, МойМир и Google Buzz все довольно просто — идете на соответствующую страницу для каждого сервиса и видите конструктор кода. Вот ссылки соответственно для <!-- raw HTML omitted -->ВКонтакте<!-- raw HTML omitted -->, <!-- raw HTML omitted -->Google Buzz<!-- raw HTML omitted --> и <!-- raw HTML omitted -->МойМир<!-- raw HTML omitted -->. Не забудьте, что если вы устанавливаете кнопку не на страницу собственно отдельного сообщения в блоге, то в каждом конструкторе надо выбрать вариант с указанием URL страницы и указать там соответствующую переменную. Например, код для Google Buzz и Wordpress будет выглядеть в этом случае так:</p>
+<blockquote>
+<p><!-- raw HTML omitted -->&lt;a title=»Post on Google Buzz» class=<!-- raw HTML omitted -->«google-buzz-button»<!-- raw HTML omitted --> href=»http://www.google.com/buzz/post» <!-- raw HTML omitted -->data-button-style<!-- raw HTML omitted -->=<!-- raw HTML omitted -->«normal-count»<!-- raw HTML omitted --> <!-- raw HTML omitted -->data-url<!-- raw HTML omitted -->=»<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->«&gt;<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</blockquote>
+<p>Немного сложнее с Facebook. У него теперь есть два варианта кнопок — Share и Like. Первая, как понятно, публикует ссылку на заметку в ленте пользователя, а вторая — обозначает, что пользователю заметка понравилась. Честно говоря, мне вторая функциональность кажется имеющей огромный потенциал для развития (читай: пока недоделанной до вменяемого состояния), поэтому остановлюсь только на кнопке Share. Тем более, что поставить ее очень несложно — укажите на странице сообщения вот такой код:</p>
+<blockquote>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->&lt;a name=»fb_share»&gt;<!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</blockquote>
+<p>Чтобы указать другой адрес и выбрать тип кнопки, первую строку можно варьировать, например, так:</p>
+<blockquote>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->&lt;a name=»fb_share» type=»button_count» share_url=»YOUR_URL»&gt;<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</blockquote>
+<p>В качестве параметра для type можно указать box_count, button_count, icon_link и icon. И <!-- raw HTML omitted -->опять-таки<!-- raw HTML omitted -->, любители WordPress могут взять <!-- raw HTML omitted -->специальный плагин<!-- raw HTML omitted -->.</p>
+<p>Вот, собственно, и все — несложно, правда?</p>
+
+		</div>
+	</article>
+</main>
+
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 БлоGнот.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>

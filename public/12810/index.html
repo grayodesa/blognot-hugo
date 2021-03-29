@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Технические работы на блоге - БлоGнот</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="БлоGнот" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">БлоGнот</div>
+					
+				</div>
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Технические работы на блоге</h1>
+			
+		</header><div class="content post__content clearfix">
+			<p>Разошелся в последние дни и провернул некоторое количество технических работ на этом блоге.</p>
+<p>Во-первых, все же перевел блог полностью на https. Я давно к этому подступался, пару лет назад даже включил ssl на cloudflare, но сейчас все же решил перевести его полностью. Сейчас сделать это на порядок легче и проще — стали доступны бесплатные ssl-сертификаты от <a href="https://letsencrypt.org/">let’s encrypt</a>, которые еще и ставятся практически автоматически, стоит только захотеть. Большинство протоколо-зависимых мест в сайте я починил еще в прошлый подход, так что никаких проблем вообще не случилось. Единственный минус от переезда — потерялась статистика лайков в Facebook для всех записей, поскольку там как раз указывается протокол. Есть довольно трудоемкий способ это починить, но я как раз не вижу особенного смысла в этом. Вообще, кажется, что польза от перехода на защищенный протокол — в том числе и для ранжирования в поисковиках, — немного больше, чем от цифр около кнопок.</p>
+<p>Кстати, поскольку чуть позже я проделал такую же операцию над сайтом Терминала 42 (там пока не включена полная переадресация, но по https уже все доступно), могу сказать, что стандартный блог на WordPress, если он не увлекается раскладыванием картинок и всяких assets на разные хосты, переводится на https довольно просто — поставить сертификат, поменять настройки и включить редирект.</p>
+<p>Во-вторых, разошелся и перешел с PHP5 на PHP7. Пара подводных камней меня все же подстерегла — например, плагин W3 Total Cache работать в режиме кэширования через Memcached отказался, роняя всё вообще, а в режиме кэширования на диск как-то не впечатлил. Оказалось, что недостаточно сказать install php7, надо еще руками доставить некоторое количество необходимых модулей. Но потому, когда всё заработало, стало просто так красиво и быстро, что я просто глазам не поверил и некоторое время просто ходил по админке WordPress, наслаждаясь скоростью. Даже с очень хорошими настройками админка обычно была нетороплива, а теперь просто летает, хотя, как я подозреваю, там есть что пооптимизировать в смысле настроек и конфигов.</p>
+<p>Теперь можно немного подождать и поставить в план на будущее подключение HTTP/2. Прямо сейчас это сделать немного сложно, поскольку для установки штатной версии того же nginx, где это возможно, надо обновить версию ОС на сервере, а это прямо рекомендуют делать чуть попозже, когда Ubuntu 16.04 проживет хоть немного после релиза. Так что подождем.</p>
+
+		</div>
+	</article>
+</main>
+
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 БлоGнот.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>

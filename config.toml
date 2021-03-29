@@ -1,0 +1,12 @@
+baseURL = "/"
+languageCode = "ru-ru"
+title = "БлоGнот"
+theme = "mainroad"
+paginate = "10"
+
+[markup.goldmark.renderer]
+unsafe= true
+
+
+summarylength = 200
+enableEmoji = true

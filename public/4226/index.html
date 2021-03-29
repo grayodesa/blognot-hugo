@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>О наболевшем — о правилах - БлоGнот</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="БлоGнот" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">БлоGнот</div>
+					
+				</div>
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">О наболевшем — о правилах</h1>
+			
+		</header><div class="content post__content clearfix">
+			<p>О наболевшем — о правилах верстки текстов или, как любят нынче повторять дизайнеры — о типографике.<br>
+Основные правила типографики для сайтов были <a href="http://www.artlebedev.ru/kovodstvo2/sections/62/">изложены</a> Лебедевым еще три года назад и после подхвачены большим количеством дизайнеров, которые дружно принялись друг друга гнобить познаванием разницы между кавычками и знаками дюйма.<br>
+Так вот что я вам скажу — фигня это все. Увлечение типографикой увело наших дизайнеров далеко от основного направления развития веба — разделение содержания и оформления.<br>
+Вот простой пример. Стучится ко мне в аську саппорт Яндекс-Новостей и «радует» сообщением, что новости с Searchengines.ru перестали корректно парситься роботом службы. Причина — в недозволенных стандартом XML символах, которые воспринимаются как объекты. Иду разбираться. Парсер вылетает на новости от Бегуна, что сразу дает мне наводку. Дело в том, что Алексей Басов, директор по PR в «Бегуне», рассылает пресс-релизы в plain text, что приводит к появлению символов переноса строки, если этот текст сразу копировать в редактор, которым я пользуюсь. Поэтому, чтобы не удалять эти символы вручную, я пихаю текст в специальную утилитку, которая их удаляет моментально. Раньше я использовал «Кавычкер» <a href="http://spectator.ru/">Спектатора</a>, но сейчас попробовал «<a href="http://www.artlebedev.ru/tools/typograf/">Типограф</a>» Студии Лебедева. Именно он и повставлял разные красивые символы.<br>
+Да, конечно, можно дописать чего-то в движок моих новостей, чтобы распознавать и убивать такие символы при создании xml-файла. Но посмотрите на такую дилемму — либо соблюдать все правила типографики и писать дополнительную функцию для конвертации в xml, либо наплевать на правила типографики и просто избегать спецсимволов. Как вы думаете, что я выберу?<br>
+Есть еще одно «но». Весь веб постепенно движется к отделению элементов оформления от содержания страницы. В качестве примера можете взять эту страницу — она сверстана практически без применения визуальных тэгов в html-коде, а отображением ее управляют стили CSS. Еще круче — генерить xml и обрабатывать его XSLT-процессором перед выдачей, что сделало бы сайт состоящим из xml-файлов с содержанием, нескольких xsl-шаблонов и коротенького скрипта, который бы в зависимости от запроса брал нужный xml-файл, накладывал на него xsl-шаблон и выдавал пользователю. Pure content — при этом шаблоны зависели бы только от того, кто и как заходит на сайт, скажем, броузером с десктопа или наладонником.<br>
+А что делают адепты типографики? Они предлагают напичкать содержание спецсимволами, которые никак не влияют на содержание текста, управляя исключительно визуальным представлением отдельных символов в соответствии (вдумайтесь внимательно) с правилами <strong>печатной</strong> верстки. Можно ли найти лучшее подтверждение, что <strong>содержание</strong> для них значения не имеет?</p>
+
+		</div>
+	</article>
+</main>
+
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 БлоGнот.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>

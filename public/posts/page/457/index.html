@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Posts - БлоGнот</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+	<link rel="alternate" type="application/rss+xml" href="/posts/index.xml" title="БлоGнот">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="БлоGнот" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">БлоGнот</div>
+					
+				</div>
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main list" role="main">
+	<header class="main__header">
+		<h1 class="main__title">Posts</h1>
+	</header><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/6055/" rel="bookmark">
+			Выложил наконец фотографии с семинара
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Выложил наконец фотографии с семинара Яндекса. Если точнее, то собственно фотографии с семинарабыли давно, а теперь добавились фотографии Киеваи наших посиделок с ребятами.
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/6054/" rel="bookmark">
+			Занятная новость:&amp;laquo;Лаборатория Касперского&amp;raquo;, российский разработчик
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Занятная новость:
+ «Лаборатория Касперского», российский разработчик систем защиты от вирусов, хакерских атак и спама, приобрела у компании «Ашманов и Партнеры» «Спамтест» — ведущий российский проект по борьбе со спамом. Подписание договора дало старт процедуре комплексной интеграции проекта «Спамтест» в технологическую, коммерческую, организационную и прочие составляющие структуры «Лаборатории Касперского». Фактически это означает полное поглощение проекта «Спамтест» «Лабораторией Касперского». Предполагается, что указанный процесс займет около двух месяцев и завершится осенью этого года.
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/6053/" rel="bookmark">
+			Сюжет о моей попытке подключения
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Сюжет о моей попытке подключения по ADSL к компании «Тенет»внезапно получил продолжение — только что позвонил мальчик из Тенета и обрадовал, что уже есть возможность подключиться. Пришлось ему рассказать, что я примерно уже 4 месяца являюсь абонентом другого провайдера, чем и доволен.
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/6052/" rel="bookmark">
+			Оказывается, я — известная сетевая
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Оказывается, я — известная сетевая персона. Ну, вот я и в «Хопре»!
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/6051/" rel="bookmark">
+			Вернулся из Киева. Семинар прошел
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Вернулся из Киева.
+Семинар прошел вполне успешно, много гуляли с ребятами из Яндекса по городу, много фотографировали, особенно вечером.
+Вот, например.
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/6045/" rel="bookmark">
+			nginx и vBulletin
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Кстати, в процессе настройки nginxвылезла интересная проблема — все работало исправно, а при попытке написать сообщение возникала ошибка «504 Gateway Timeout». При этом в версии vBulletin 3.0.7 пост проходил, а в 2.2.6 — нет.
+Оказалось, что этот движок форума (да и другие, вероятно, тоже) довольно вольно формирует заголовки запросов и ответов веб-сервера, не заботясь об их размере, и именно на этом и спотыкался nginx. Лечится это просто — в конфиге сервера (или виртуального хоста) достаточно указать параметр proxy_header_buffer_size (мы установили в 64k, думаю, этого более чем достаточно) и все замечательно начинает работать.
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/6044/" rel="bookmark">
+			О некомпетентности и пластиковых картах
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Иногда некомпетентность людей меня попросту бесит. Причем некомпетентность эта абсолютно необъяснима. Впечатление такое, что люди, которым положено говорить одно, специально говорят другое, а почему — неясно.
+Некоторое время назад я столкнулся с неприятным фактом — по моей карте можно было снять только тысячу гривен в сутки. Звонок в сервисный центр Приватбанка помог выяснить, что в целях защиты клиентов от мошенников служба безопасности ограничила сумму транзакции до одной тысячи. Но мне могут поднять этот лимит по разовой просьбе.
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/6043/" rel="bookmark">
+			Пример наружки в Одессе: Так
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Пример наружки в Одессе:
+Так и хочется добавить — «але не продається».
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/6042/" rel="bookmark">
+			Любопытно, что до сих пор
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Любопытно, что до сих пор люди употребляют название «МММ», как символ мошенничества. Причем употребляют даже те, кто в период расцвета подобных «трастов» еще и начальную школу не закончил и о деятельности Мавроди знают явно понаслышке.
+При этом более свежие примеры, которых тоже в принципе немало, почему-то не используются. Привыкли?
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/6034/" rel="bookmark">
+			Занятный сайт, на котором не
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Занятный сайт, на котором не надо кликать. (via)
+	</div>
+</article>
+</main>
+
+<div class="pagination">
+	<a class="pagination__item pagination__item--prev btn" href="/posts/page/456/">«</a>
+	<span class="pagination__item pagination__item--current">457/821</span>
+	<a class="pagination__item pagination__item--next btn" href="/posts/page/458/">»</a>
+</div>
+
+			</div>
+			
+
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 БлоGнот.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>
