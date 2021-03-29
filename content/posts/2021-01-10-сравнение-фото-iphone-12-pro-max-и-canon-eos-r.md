@@ -1,7 +1,7 @@
 ---
 title: Сравнение фото iPhone 12 Pro Max и Canon EOS R
 author: Gray
-type: postss
+type: posts
 date: 2021-01-10T21:00:52+00:00
 url: /60081
 essb_cache_expire:
