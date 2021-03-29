@@ -3,6 +3,8 @@ languageCode = "ru-ru"
 title = "БлоGнот"
 theme = "mainroad"
 paginate = "10"
+googleAnalytics = "UA-11591143-1"
+disqusShortname = "blognot"
 
 [markup.goldmark.renderer]
 unsafe= true
@@ -44,3 +46,6 @@ readmore = true # Show "Read more" button in list if true
 pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
 post_meta = ["date"]
 dateformat = "02-01-2006"
+
+[Params.style.vars]
+fontFamilyPrimary = "BlinkMacSystemFont,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
