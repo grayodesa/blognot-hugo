@@ -1,5 +1,6 @@
 baseURL = "/"
 languageCode = "ru"
+defaultContentLanguage = "ru"
 title = "БлоGнот"
 theme = "mainroad"
 paginate = "10"
