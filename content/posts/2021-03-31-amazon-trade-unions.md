@@ -1,6 +1,6 @@
 title: Amazon против профсоюзов
 author: Gray
-date: 2021-03-31T02:17:51+02:00
+date: 2021-03-31T02:17:51+00:00
 draft: false
 url: /60475
 featured_image: ({{site.baseurl}}/static/img/amazon.jpg
