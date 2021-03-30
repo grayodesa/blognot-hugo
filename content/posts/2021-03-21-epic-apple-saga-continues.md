@@ -40,8 +40,8 @@ essb_c_total:
 categories:
   - Без рубрики
   tags:
-  	- apple
-  	- epic
+  - apple
+  - Epic
 
 ---
 
