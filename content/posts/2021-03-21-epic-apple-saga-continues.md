@@ -39,6 +39,9 @@ essb_c_total:
   - 2
 categories:
   - Без рубрики
+  tags:
+  	- apple
+  	- epic
 
 ---
 
