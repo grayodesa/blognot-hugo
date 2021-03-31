@@ -1,5 +1,5 @@
 baseURL = "/"
-disqusShortname = "blognot"
+#disqusShortname = "blognot"
 googleAnalytics = "UA-11591143-1"
 languageCode = "ru"
 defaultContentLanguage = "ru"
