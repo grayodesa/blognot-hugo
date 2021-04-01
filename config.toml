@@ -39,3 +39,4 @@ url = "https://www.youtube.com/c/grayru"
 enableEmoji = true
 summarylength = 200
 unsafe = true
+ignoreFiles = ["/content/wp-content/*"]
