@@ -1,6 +1,7 @@
 ---
 title: "Как я не перешел с Wordpress на Hugo, Gatsby и прочий Node"
 date: 2021-03-31T14:20:47+03:00
+url: /60485
 draft: false
 tags:
   - WordPress
