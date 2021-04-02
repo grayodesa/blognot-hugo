@@ -8,3 +8,4 @@ content/.DS_Store
 content/wp-content/.DS_Store
 public/
 hokus.toml
+.vscode/settings.json
