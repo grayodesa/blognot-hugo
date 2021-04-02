@@ -5,40 +5,8 @@ type: posts
 date: 2021-02-04T23:13:37+00:00
 url: /60212
 featured_image: https://blognot.co/wp-content/uploads/2021/02/shutterstock_1092020135.jpg
-essb_cached_image:
-  - https://blognot.co/wp-content/uploads/2021/02/shutterstock_1092020135.jpg
-essb_cache_expire:
-  - 1616498929
-ytrssenabled_meta_value:
-  - no
-ytremove_meta_value:
-  - no
-ytad1meta:
-  - enabled
-ytad2meta:
-  - enabled
-ytad3meta:
-  - enabled
-ytad4meta:
-  - enabled
-ytad5meta:
-  - enabled
-template_meta:
-  - no
-bluth_post_layout:
-  - right_side
-ampforwp-amp-on-off:
-  - default
-ampforwp-ia-on-off:
-  - default
-essb_c_twitter:
-  - 2
-essb_c_total:
-  - 2
-ytextendedhtmlmeta:
-  - default
-categories:
-  - Без рубрики
+tags:
+  - google
 
 ---
 

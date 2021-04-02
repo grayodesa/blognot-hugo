@@ -5,46 +5,10 @@ type: posts
 date: 2020-10-10T15:15:25+00:00
 url: /59886
 featured_image: https://blognot.co/wp-content/uploads/2020/10/apple_fortnite_1984_parody.0.jpg
-essb_cached_image:
-  - https://blognot.co/wp-content/uploads/2020/10/apple_fortnite_1984_parody.0.jpg
-essb_cache_expire:
-  - 1616592400
-ytrssenabled_meta_value:
-  - no
-ytremove_meta_value:
-  - no
-ytad1meta:
-  - enabled
-ytad2meta:
-  - enabled
-ytad3meta:
-  - enabled
-ytad4meta:
-  - enabled
-ytad5meta:
-  - enabled
-template_meta:
-  - no
-bluth_post_layout:
-  - right_side
-ampforwp-amp-on-off:
-  - default
-ampforwp-ia-on-off:
-  - default
-essb_c_twitter:
-  - 2
-essb_c_total:
-  - 2
-categories:
-  - Без рубрики
-
+tags:
+  - apple
+  - Epic
 ---
-
-
-
-
-
-
 
 Вчера вечером судья суда Северного округа Калифорнии вынесла решение по обеспечительным мерам в иске Epic Games против Apple. Суть решения проста — судья отказала Epic в требовании восстановить Fortnite в App Store, но запретила Apple блокировать аккаунты Epic Affiliates, которые используются в разработке Unreal Engine.
 

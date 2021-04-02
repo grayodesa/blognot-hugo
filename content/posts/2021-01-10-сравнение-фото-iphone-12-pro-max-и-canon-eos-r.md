@@ -4,43 +4,10 @@ author: Gray
 type: posts
 date: 2021-01-10T21:00:52+00:00
 url: /60081
-essb_cache_expire:
-  - 1616668082
-ytrssenabled_meta_value:
-  - no
-ytremove_meta_value:
-  - no
-ytad1meta:
-  - enabled
-ytad2meta:
-  - enabled
-ytad3meta:
-  - enabled
-ytad4meta:
-  - enabled
-ytad5meta:
-  - enabled
-template_meta:
-  - no
-bluth_post_layout:
-  - right_side
-ampforwp-amp-on-off:
-  - default
-ampforwp-ia-on-off:
-  - default
-essb_c_twitter:
-  - 3
-essb_c_total:
-  - 3
-categories:
-  - Без рубрики
-
+tags:
+  - iphone
+  - фото
 ---
-
-
-
-
-
 
 
 Честно говоря, сначала я собирался сделать что-то типа слепого теста и предложить угадать, какая фотография сделана на что, но, когда закончил обрабатывать фотографии — а обе сделаны изначально в RAW-формате и без обработки их рассматривать нет никакого смысла, — передумал.

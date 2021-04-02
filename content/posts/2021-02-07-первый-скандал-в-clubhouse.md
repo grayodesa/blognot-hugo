@@ -4,40 +4,8 @@ author: Gray
 type: posts
 date: 2021-02-07T11:28:08+00:00
 url: /60219
-essb_cache_expire:
-  - 1616777593
-ytrssenabled_meta_value:
-  - no
-ytremove_meta_value:
-  - no
-ytad1meta:
-  - enabled
-ytad2meta:
-  - enabled
-ytad3meta:
-  - enabled
-ytad4meta:
-  - enabled
-ytad5meta:
-  - enabled
-template_meta:
-  - no
-ytextendedhtmlmeta:
-  - default
-bluth_post_layout:
-  - right_side
-ampforwp-amp-on-off:
-  - default
-ampforwp-ia-on-off:
-  - default
-essb_c_facebook:
-  - 10
-essb_c_total:
-  - 13
-essb_c_twitter:
-  - 3
-categories:
-  - Без рубрики
+tags:
+  - clubhouse
 
 ---
 
