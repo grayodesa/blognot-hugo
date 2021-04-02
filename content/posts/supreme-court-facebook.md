@@ -5,6 +5,7 @@ draft: false
 featuredImg: "https://blognot.co/wp-content/uploads/2021/04/iStock-1140704130.21abc20ddf2b43a0a92265a72f9bad28.jpg"
 tags:
   - facebook
+url: /60508/
 
 ---
 Верховный суд США [вынес решение](https://www.businessinsider.com/supreme-court-ruling-facebook-automated-text-system-not-robocalling-2021-4?op=1&scrolla=5eb6d68b7fedc32c19ef33b4) в пользу компании Facebook в деле об автоматизированных звонках. Иск тянется с 2015 года, когда некто Ноа Дугид обвинил Facebook в нарушении закона о защите прав абонентов, выразившееся в использовании «автоматической системы набора». На самом деле он получил сообщение о попытке входа на аккаунт Facebook, хотя у него не было аккаунта, а сообщение предназначалось предыдущему владельцу телефонного номера.
