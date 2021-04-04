@@ -9,3 +9,9 @@ content/wp-content/.DS_Store
 public/
 hokus.toml
 .vscode/settings.json
+Blognot.code-workspace
+Caddyfile
+Dockerfile
+fly.toml
+content/.DS_Store
+content/.DS_Store
