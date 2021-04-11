@@ -22,8 +22,3 @@ jobs:
       with:
           hugo-arguments: '--minify'
           rsync-arguments: '--archive --compress --xattrs --delete'
-
-        PRE_SCRIPT: |
-          echo start at:
-          date -u
-        POST_SCRIPT: "echo done at: && date -u"
