@@ -16,6 +16,7 @@ jobs:
     - uses: grayru/hugo-rsync-deployment@master
       env:
           VPS_DEPLOY_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          VPS_DEPLOY_KEY_PUB: ${{ secrets.DEPLOY_SSH_KEY_PUB }}
           VPS_DEPLOY_USER: root
           VPS_DEPLOY_HOST: new1.blognot.co
           VPS_DEPLOY_DEST: /var/www/html/
