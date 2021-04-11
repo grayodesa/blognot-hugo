@@ -1,7 +1,5 @@
 name: Hugo S3
 
-name: Hugo S3
-
 on:
   push:
     branches: [ master ]
