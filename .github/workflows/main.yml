@@ -24,7 +24,7 @@ jobs:
         TARGET: /var/www/html
 
         VERBOSE: true
-        USER: ubuntu
+        USER: root
         # PORT: 2222 # no need to set this, because of $SSH_ARGS
         ARGS: -az --exclude=/.git/
         SSH_ARGS: '-p 22 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no'
