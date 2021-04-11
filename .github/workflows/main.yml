@@ -16,12 +16,21 @@ jobs:
     - uses: jakejarvis/hugo-build-action@master  # ...or replace 'master' with a full version tag, such as: v0.64.1
       with:
         args: --minify --buildDrafts
-    - uses: jakejarvis/s3-sync-action@master
-      with:
-        args: --acl public-read --follow-symlinks --delete
+    - name: Deploy to my blog
+      uses: up9cloud/action-rsync@v1.1
       env:
-        AWS_S3_BUCKET: 'blognot.co'
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_REGION: 'eu-central-1' 
-        SOURCE_DIR: 'public'
+        HOST: new1.blognot.co
+        KEY: ${{secrets.DEPLOY_SSH_KEY}}
+        TARGET: /var/www/html
+
+        VERBOSE: true
+        USER: ubuntu
+        # PORT: 2222 # no need to set this, because of $SSH_ARGS
+        ARGS: -az --exclude=/.git/
+        SSH_ARGS: '-p 22 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no'
+        SOURCE: ./public/
+
+        PRE_SCRIPT: |
+          echo start at:
+          date -u
+        POST_SCRIPT: "echo done at: && date -u"
