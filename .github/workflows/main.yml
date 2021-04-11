@@ -13,18 +13,16 @@ jobs:
     - uses: actions/checkout@master
       with:
         submodules: true  # Fetch Hugo themes (true OR recursive)
-    - uses: jakejarvis/hugo-build-action@master  # ...or replace 'master' with a full version tag, such as: v0.64.1
-      with:
-        args: --minify --buildDrafts
-    - uses: AEnterprise/rsync-deploy@v1.0
+      - name: Generate and deploy website
+        uses: grayru/hugo-rsync-deployment@master
         env:
-          DEPLOY_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
-          ARGS: "-e -c -r --delete"
-          SERVER_PORT: 22
-          FOLDER: "/public/"
-          SERVER_IP: new1.blognot.co
-          USERNAME: root
-          SERVER_DESTINATION: /var/www/html
+          VPS_DEPLOY_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          VPS_DEPLOY_USER: root
+          VPS_DEPLOY_HOST: new1.blognot.co
+          VPS_DEPLOY_DEST: /var/www/html/
+        with:
+          hugo-arguments: '--minify'
+          rsync-arguments: '--archive --compress --xattrs --delete'
 
         PRE_SCRIPT: |
           echo start at:
