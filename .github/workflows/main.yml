@@ -14,12 +14,12 @@ jobs:
       with:
         submodules: true  # Fetch Hugo themes (true OR recursive)
     - uses: grayru/hugo-rsync-deployment@master
-        env:
+      env:
           VPS_DEPLOY_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
           VPS_DEPLOY_USER: root
           VPS_DEPLOY_HOST: new1.blognot.co
           VPS_DEPLOY_DEST: /var/www/html/
-        with:
+      with:
           hugo-arguments: '--minify'
           rsync-arguments: '--archive --compress --xattrs --delete'
 
