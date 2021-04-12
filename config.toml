@@ -5,7 +5,8 @@ languageCode = "ru"
 defaultContentLanguage = "ru"
 title = "БлоGнот"
 theme = "mainroad"
-paginate = "10"
+paginate = "15"
+ignoreFiles = ["\\.jpg$","\\.png$","\\.webp$"]
 
 [Params]
 dateformat = "02-01-2006"
@@ -39,4 +40,3 @@ url = "https://www.youtube.com/c/grayru"
 enableEmoji = true
 summarylength = 200
 unsafe = true
-ignoreFiles = ["\\.jpg","\\.png","\\.webp"]
