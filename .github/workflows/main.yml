@@ -13,12 +13,16 @@ jobs:
     - uses: actions/checkout@master
       with:
         submodules: true  # Fetch Hugo themes (true OR recursive)
-    - uses: grayru/hugo-rsync-deployment@master
-      env:
-          VPS_DEPLOY_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
-          VPS_DEPLOY_USER: root
-          VPS_DEPLOY_HOST: new1.blognot.co
-          VPS_DEPLOY_DEST: /var/www/html/
+    - uses: jakejarvis/hugo-build-action@master  # ...or replace 'master' with a full version tag, such as: v0.64.1
       with:
-          hugo-arguments: '--minify'
-          rsync-arguments: '--archive --compress --xattrs --delete'
+        args: --minify --buildDrafts
+    - uses: up9cloud/action-rsync@master
+      env:
+        HOST: new1.blognot.co
+        KEY: ${{secrets.DEPLOY_SSH_KEY}}
+        TARGET: /var/www/html
+        
+        PRE_SCRIPT: |
+          echo start at:
+          date -u
+        POST_SCRIPT: "echo done at: && date -u"
