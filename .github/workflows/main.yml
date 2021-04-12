@@ -19,7 +19,7 @@ jobs:
         HOST: new1.blognot.co
         KEY: ${{secrets.DEPLOY_SSH_KEY}}
         TARGET: /var/www/html
-        SOURCE: /public
+        SOURCE: ./public
         VERBOSE: true
         
         PRE_SCRIPT: |
