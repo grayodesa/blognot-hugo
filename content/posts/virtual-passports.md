@@ -2,7 +2,7 @@
 title: "Про Дию и виртуальные паспорта"
 date: 2021-04-05T14:42:59+03:00
 draft: false
-featuredImg: "https://blognot.co/wp-content/uploads/2021/04/iStock-1179944172.750a5987470b411fb66cf9998ea7e20b-scaled.jpg"
+images: "https://blognot.co/wp-content/uploads/2021/04/iStock-1179944172.750a5987470b411fb66cf9998ea7e20b-scaled.jpg"
 tags:
   - Украина
   - Дия

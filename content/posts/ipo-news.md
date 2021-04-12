@@ -2,7 +2,7 @@
 title: "Новости про IPO"
 date: 2021-04-01T06:21:35+03:00
 draft: false
-featuredImg: "/img/coursera-office.jpg"
+images: "/img/coursera-office.jpg"
 tags:
   - IPO
   - coursera
