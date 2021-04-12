@@ -1,0 +1,24 @@
+name: Hugo S3
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+      with:
+        submodules: true  # Fetch Hugo themes (true OR recursive)
+    - uses: grayru/hugo-rsync-deployment@master
+      env:
+          VPS_DEPLOY_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          VPS_DEPLOY_USER: root
+          VPS_DEPLOY_HOST: new1.blognot.co
+          VPS_DEPLOY_DEST: /var/www/html/
+      with:
+          hugo-arguments: '--minify'
+          rsync-arguments: '--archive --compress --xattrs --delete'
