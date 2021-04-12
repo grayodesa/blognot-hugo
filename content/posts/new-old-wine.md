@@ -2,7 +2,8 @@
 title: "Новый старый виноград"
 date: 2021-04-10T15:41:42+03:00
 draft: false
-featuredImg: "https://blognot.co/wp-content/uploads/2021/04/%D0%92%D1%81%D0%B5-%D1%84%D0%BE%D1%82%D0%BE-00195.093ecc3f367e45ceb61c0c1ee7596977-1505x2048.webp"
+images: 
+  - https://blognot.co/wp-content/uploads/2021/04/%D0%92%D1%81%D0%B5-%D1%84%D0%BE%D1%82%D0%BE-00195.093ecc3f367e45ceb61c0c1ee7596977-1505x2048.webp
 tags:
   - вино
 url: /60585/
