@@ -6,7 +6,7 @@ defaultContentLanguage = "ru"
 title = "БлоGнот"
 theme = "mainroad"
 paginate = "15"
-ignoreFiles = ["\\.jpg$","\\.png$","\\.webp$"]
+ignoreFiles = ["\\.jpg$","\\.png$","\\.webp$","\\.gif$","\\.jpeg$"]
 
 [Params]
 dateformat = "02-01-2006"
