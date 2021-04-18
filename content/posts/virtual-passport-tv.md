@@ -2,7 +2,7 @@
 title: "Продолжение про цифровые паспорта"
 date: 2021-04-14T21:11:04+03:00
 draft: false
-image: 
+images: 
   - /img/personal-data.jpg
 tags:
   - дия
