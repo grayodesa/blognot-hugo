@@ -20,7 +20,7 @@ twitter_cards = true
 home = "right"
 list = "left"
 single = "right"
-widgets = ["search", "recent", "taglist", "social", "languages"]
+widgets = ["search", "recent", "comments","taglist", "social", "languages"]
 [Params.style.vars]
 fontFamilyPrimary = "BlinkMacSystemFont,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
 [Params.widgets]
