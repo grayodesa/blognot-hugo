@@ -16,9 +16,9 @@ jobs:
     - uses: klakegg/actions-hugo@1.0.0
     - uses: up9cloud/action-rsync@master
       env:
-        HOST: new1.blognot.co
+        HOST: remark.blognot.co
         KEY: ${{secrets.DEPLOY_SSH_KEY}}
-        TARGET: /var/www/html
+        TARGET: /var/remark/web
         SOURCE: ./public/
         VERBOSE: true
         
