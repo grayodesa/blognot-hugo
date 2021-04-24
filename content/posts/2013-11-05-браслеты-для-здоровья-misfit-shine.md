@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2013-11-05T06:30:16+00:00
 url: /11365
-featured_image: https://blognot.co/wp-content/uploads/http://res.cloudinary.com/blognot/image/upload/v1387618760/01_shine_img_big_ib7pjs.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/http://res.cloudinary.com/blognot/image/upload/v1387618760/01_shine_img_big_ib7pjs.jpg
 bluth_post_layout:
   - right_side
 dsq_thread_id:

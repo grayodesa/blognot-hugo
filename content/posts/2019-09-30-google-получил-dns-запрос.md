@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2019-09-30T07:56:00+00:00
 url: /57957
-featured_image: https://blognot.co/wp-content/uploads/2019/09/Google_Public_DNS.png
+images:
+  -  https://blognot.co/wp-content/uploads/2019/09/Google_Public_DNS.png
 essb_cached_image:
   - https://blognot.co/wp-content/uploads/2019/09/Google_Public_DNS.png
 essb_cache_expire:

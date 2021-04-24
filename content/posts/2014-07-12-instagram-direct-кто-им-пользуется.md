@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2014-07-12T12:33:45+00:00
 url: /11988
-featured_image: https://blognot.co/wp-content/uploads/http://res.cloudinary.com/blognot/image/upload/v1405168235/Instagram_Rainbow_Banner_uyodfv.png
+images:
+  -  https://blognot.co/wp-content/uploads/http://res.cloudinary.com/blognot/image/upload/v1405168235/Instagram_Rainbow_Banner_uyodfv.png
 wp-to-buffer-pro:
   - 'a:6:{s:8:"override";s:1:"1";s:7:"message";s:14:" {title} {url}";s:5:"image";s:1:"1";s:6:"number";s:1:"1";s:16:"alternateMessage";s:0:"";s:3:"ids";a:2:{s:24:"4eb3e9e6512f7eb575000000";s:1:"1";s:24:"000000000000000000025630";s:1:"1";}}'
 bluth_post_layout:

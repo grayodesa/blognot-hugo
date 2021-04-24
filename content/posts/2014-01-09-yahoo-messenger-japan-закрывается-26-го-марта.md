@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2014-01-09T12:45:16+00:00
 url: /11570
-featured_image: https://blognot.co/wp-content/uploads/http://res.cloudinary.com/blognot/image/upload/v1390217325/messaging_szf980.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/http://res.cloudinary.com/blognot/image/upload/v1390217325/messaging_szf980.jpg
 wp-to-buffer:
   - 'a:4:{i:0;a:3:{s:2:"id";s:24:"52ce99e2edb86df73e000004";s:15:"profile_service";s:8:"facebook";s:10:"created_at";i:1389271522;}i:1;a:3:{s:2:"id";s:24:"52ce99e3edb86df73e000005";s:15:"profile_service";s:7:"twitter";s:10:"created_at";i:1389271523;}i:2;a:3:{s:2:"id";s:24:"52ce99e3edb86df73e000006";s:15:"profile_service";s:8:"linkedin";s:10:"created_at";i:1389271523;}i:3;a:3:{s:2:"id";s:24:"52ce99e3edb86df73e000007";s:15:"profile_service";s:8:"facebook";s:10:"created_at";i:1389271523;}}'
 wp-to-buffer-pro:

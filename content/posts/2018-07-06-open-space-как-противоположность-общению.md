@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2018-07-06T17:27:04+00:00
 url: /56841
-featured_image: https://blognot.co/wp-content/uploads/2020/04/open-plan_y190gy.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2020/04/open-plan_y190gy.jpg
 bluth_post_layout:
   - right_side
 ampforwp-amp-on-off:

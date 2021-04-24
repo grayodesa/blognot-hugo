@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2019-06-14T07:05:51+00:00
 url: /57740
-featured_image: https://blognot.co/wp-content/uploads/2019/06/samsung_fold.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2019/06/samsung_fold.jpg
 ytrssenabled_meta_value:
   - no
 ytremove_meta_value:

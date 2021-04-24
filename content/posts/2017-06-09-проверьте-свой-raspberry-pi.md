@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2017-06-09T17:51:02+00:00
 url: /13268
-featured_image: https://blognot.co/wp-content/uploads/2017/06/pi2modb1gb-comp-1.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2017/06/pi2modb1gb-comp-1.jpg
 bluth_post_layout:
   - right_side
 essb_cached_image:

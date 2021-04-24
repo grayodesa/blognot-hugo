@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2018-08-23T13:16:45+00:00
 url: /56946
-featured_image: https://blognot.co/wp-content/uploads/2018/08/39410879_927957690734019_1658188337845895168_n.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2018/08/39410879_927957690734019_1658188337845895168_n.jpg
 essb_cache_expire:
   - 1614785966
 snap_isAutoPosted:

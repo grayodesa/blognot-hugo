@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2014-02-04T06:21:51+00:00
 url: /11659
-featured_image: https://blognot.co/wp-content/uploads/2014/02/Thomas_Jefferson_by_Rembrandt_Peale_1800.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2014/02/Thomas_Jefferson_by_Rembrandt_Peale_1800.jpg
 wp-to-buffer-pro:
   - 'a:3:{s:7:"message";s:0:"";s:6:"number";s:1:"1";s:16:"alternateMessage";s:0:"";}'
 bluth_post_layout:

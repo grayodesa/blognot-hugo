@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2017-07-24T11:52:07+00:00
 url: /13452
-featured_image: https://blognot.co/wp-content/uploads/2017/07/Lycamobile_App_142_6257.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2017/07/Lycamobile_App_142_6257.jpg
 bluth_post_layout:
   - right_side
 essb_cached_image:

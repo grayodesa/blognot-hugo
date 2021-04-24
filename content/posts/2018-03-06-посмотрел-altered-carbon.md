@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2018-03-06T17:18:21+00:00
 url: /55135
-featured_image: https://blognot.co/wp-content/uploads/2018/03/MV5BMTUyOTM3Njc1M15BMl5BanBnXkFtZTgwNjE4MjE2NDM@._V1_SX1500_CR001500999_AL_.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2018/03/MV5BMTUyOTM3Njc1M15BMl5BanBnXkFtZTgwNjE4MjE2NDM@._V1_SX1500_CR001500999_AL_.jpg
 bluth_post_layout:
   - right_side
 ampforwp-amp-on-off:

@@ -2,8 +2,8 @@
 title: "Продолжение про цифровые паспорта"
 date: 2021-04-14T21:11:04+03:00
 draft: false
-images: 
-  - /img/personal-data.jpg
+images:
+  - https://blognot.co/img/personal-data.jpg
 tags:
   - дия
   - Украина

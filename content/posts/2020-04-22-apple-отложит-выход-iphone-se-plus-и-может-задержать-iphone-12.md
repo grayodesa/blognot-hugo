@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2020-04-22T07:45:38+00:00
 url: /59332
-featured_image: https://blognot.co/wp-content/uploads/2020/04/106489958-1586967507552iphone-family.png.jpeg
+images:
+  -  https://blognot.co/wp-content/uploads/2020/04/106489958-1586967507552iphone-family.png.jpeg
 essb_cached_image:
   - https://blognot.co/wp-content/uploads/2020/04/106489958-1586967507552iphone-family.png.jpeg
 essb_cache_expire:

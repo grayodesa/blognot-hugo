@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2020-06-25T11:14:05+00:00
 url: /59662
-featured_image: https://blognot.co/wp-content/uploads/2020/06/Apple-wwdc.png
+images:
+  -  https://blognot.co/wp-content/uploads/2020/06/Apple-wwdc.png
 ytrssenabled_meta_value:
   - no
 ytremove_meta_value:

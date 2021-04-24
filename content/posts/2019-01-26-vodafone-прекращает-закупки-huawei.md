@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2019-01-25T22:48:23+00:00
 url: /57315
-featured_image: https://blognot.co/wp-content/uploads/2019/01/vodafone1710.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2019/01/vodafone1710.jpg
 bluth_post_layout:
   - right_side
 ampforwp-amp-on-off:

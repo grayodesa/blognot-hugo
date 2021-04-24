@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2020-10-10T15:15:25+00:00
 url: /59886
-featured_image: https://blognot.co/wp-content/uploads/2020/10/apple_fortnite_1984_parody.0.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2020/10/apple_fortnite_1984_parody.0.jpg
 tags:
   - apple
   - Epic

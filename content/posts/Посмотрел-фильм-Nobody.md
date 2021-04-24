@@ -3,7 +3,7 @@ title: "Посмотрел фильм Nobody"
 date: 2021-04-19T12:36:09+03:00
 draft: false
 images:
-  - /img/20210326T1215-MOVIE-REVIEW-NOBODY-1244756.jpg
+  - https://blognot.co/img/20210326T1215-MOVIE-REVIEW-NOBODY-1244756.jpg
 tags:
   - кино
 url: /60610/

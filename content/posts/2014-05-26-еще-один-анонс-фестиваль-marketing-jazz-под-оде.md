@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2014-05-26T19:02:51+00:00
 url: /11868
-featured_image: https://blognot.co/wp-content/uploads/2014/05/logo_data3.png
+images:
+  -  https://blognot.co/wp-content/uploads/2014/05/logo_data3.png
 wp-to-buffer-pro:
   - 'a:4:{s:8:"override";s:1:"0";s:7:"message";s:0:"";s:6:"number";s:1:"1";s:16:"alternateMessage";s:0:"";}'
 bluth_post_layout:

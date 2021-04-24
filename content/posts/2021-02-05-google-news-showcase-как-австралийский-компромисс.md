@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2021-02-04T23:13:37+00:00
 url: /60212
-featured_image: https://blognot.co/wp-content/uploads/2021/02/shutterstock_1092020135.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2021/02/shutterstock_1092020135.jpg
 tags:
   - google
 

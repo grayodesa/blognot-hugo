@@ -4,7 +4,8 @@ author: Gray
 date: 2021-03-30T20:17:51+03:00
 draft: false
 url: /60475
-featured_image: /img/amazon.jpg
+images:
+  -  /img/amazon.jpg
 tags:
   - amazon
 

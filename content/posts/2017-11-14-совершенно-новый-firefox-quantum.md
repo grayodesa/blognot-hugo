@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2017-11-14T10:27:05+00:00
 url: /40605
-featured_image: https://blognot.co/wp-content/uploads/2017/11/2017.25.09.FFQuantumBeta_Quantum-1400x770.png
+images:
+  -  https://blognot.co/wp-content/uploads/2017/11/2017.25.09.FFQuantumBeta_Quantum-1400x770.png
 bluth_post_layout:
   - right_side
 essb_cached_image:

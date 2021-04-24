@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2018-12-04T09:58:17+00:00
 url: /57111
-featured_image: https://blognot.co/wp-content/uploads/2018/12/MS-Edge-Thumb-1600x600.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2018/12/MS-Edge-Thumb-1600x600.jpg
 essb_cache_expire:
   - 1616603240
 snapFB:

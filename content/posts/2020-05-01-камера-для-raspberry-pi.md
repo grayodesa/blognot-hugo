@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2020-05-01T08:02:10+00:00
 url: /59392
-featured_image: https://blognot.co/wp-content/uploads/2020/05/0a7508cc-17be-44f9-ab03-af06c6826f84_CAMLONGLENSHEROALT.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2020/05/0a7508cc-17be-44f9-ab03-af06c6826f84_CAMLONGLENSHEROALT.jpg
 essb_cached_image:
   - https://blognot.co/wp-content/uploads/2020/05/0a7508cc-17be-44f9-ab03-af06c6826f84_CAMLONGLENSHEROALT.jpg
 essb_cache_expire:

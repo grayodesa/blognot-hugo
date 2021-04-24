@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2014-09-26T11:46:24+00:00
 url: /12129
-featured_image: https://blognot.co/wp-content/uploads/http://res.cloudinary.com/blognot/image/upload/v1411734242/iphone6p_1_vjt5os.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/http://res.cloudinary.com/blognot/image/upload/v1411734242/iphone6p_1_vjt5os.jpg
 wp-to-buffer-pro:
   - 'a:4:{s:8:"override";s:1:"0";s:7:"message";s:0:"";s:6:"number";s:1:"1";s:16:"alternateMessage";s:0:"";}'
 bluth_post_layout:

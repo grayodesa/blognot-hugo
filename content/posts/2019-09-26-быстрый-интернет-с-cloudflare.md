@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2019-09-26T13:50:02+00:00
 url: /57946
-featured_image: https://blognot.co/wp-content/uploads/2019/09/Warp-@2x.png
+images:
+  -  https://blognot.co/wp-content/uploads/2019/09/Warp-@2x.png
 ytrssenabled_meta_value:
   - no
 ytremove_meta_value:

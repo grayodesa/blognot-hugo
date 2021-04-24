@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2019-10-17T12:03:52+00:00
 url: /58023
-featured_image: https://blognot.co/wp-content/uploads/2019/10/brian-koppelman-and-david-levien-billions-writers.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2019/10/brian-koppelman-and-david-levien-billions-writers.jpg
 essb_cached_image:
   - https://blognot.co/wp-content/uploads/2019/10/brian-koppelman-and-david-levien-billions-writers.jpg
 essb_cache_expire:

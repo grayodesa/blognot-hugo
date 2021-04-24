@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2019-08-22T14:34:28+00:00
 url: /57860
-featured_image: https://blognot.co/wp-content/uploads/2019/05/google-chrome-adblocker-uai-1440x900.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2019/05/google-chrome-adblocker-uai-1440x900.jpg
 essb_cached_image:
   - https://blognot.co/wp-content/uploads/2019/05/google-chrome-adblocker-uai-1440x900.jpg
 essb_cache_expire:

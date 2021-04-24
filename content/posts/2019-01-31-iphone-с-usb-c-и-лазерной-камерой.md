@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2019-01-31T16:23:42+00:00
 url: /57357
-featured_image: https://blognot.co/wp-content/uploads/2019/01/dual_cameras_large.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2019/01/dual_cameras_large.jpg
 essb_cached_image:
   - https://blognot.co/wp-content/uploads/2019/01/dual_cameras_large.jpg
 essb_cache_expire:

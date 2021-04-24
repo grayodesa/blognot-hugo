@@ -3,7 +3,7 @@ title: "Заметки о переходе на Hugo"
 date: 2021-04-18T14:10:47+03:00
 draft: false
 images:
-  - /img/2021-04-18-13-43-28.jpg
+  - https://blognot.co/img/2021-04-18-13-43-28.jpg
 tags:
   - hugo
   - блог

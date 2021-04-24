@@ -3,7 +3,7 @@ title: "Apple Podcasters Program"
 date: 2021-04-21T11:57:00+03:00
 draft: false
 images:
-  - /img/podcastconnect-conf.png
+  - https://blognot.co/img/podcastconnect-conf.png
 tags:
   - apple
   - подкасты

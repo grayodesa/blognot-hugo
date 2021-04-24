@@ -2,7 +2,8 @@
 title: "Как работает AppStore"
 date: 2021-04-09T13:26:19+03:00
 draft: false
-featuredImg: "/img/apple-epic.png"
+images:
+  - https://blognot.co/img/apple-epic.png"
 tags:
   - epic
   - apple

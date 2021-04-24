@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2013-09-09T05:55:46+00:00
 url: /11260
-featured_image: https://blognot.co/wp-content/uploads/2013/09/jobs-movie.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2013/09/jobs-movie.jpg
 bluth_post_layout:
   - right_side
 dsq_thread_id:

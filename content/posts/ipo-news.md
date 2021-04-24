@@ -2,8 +2,8 @@
 title: "Новости про IPO"
 date: 2021-04-01T06:21:35+03:00
 draft: false
-images: 
-  - /img/coursera-office.jpg
+images:
+  - https://blognot.co/img/coursera-office.jpg
 tags:
   - IPO
   - coursera

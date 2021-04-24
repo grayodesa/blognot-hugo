@@ -2,7 +2,8 @@
 title: "Про Wordpress и React ещё немного"
 date: 2021-04-02T11:11:09+03:00
 draft: false
-featuredImg: "/img/%D0%91%D0%BB%D0%BEG%D0%BD%D0%BE%D1%82.png"
+images:
+  - https://blognot.co/img/%D0%91%D0%BB%D0%BEG%D0%BD%D0%BE%D1%82.png"
 tags:
   - WordPress
   - react

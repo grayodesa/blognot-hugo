@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2019-12-12T23:55:24+00:00
 url: /58207
-featured_image: https://blognot.co/wp-content/uploads/2019/12/dseifert_190414_3374_3942.0.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2019/12/dseifert_190414_3374_3942.0.jpg
 essb_cached_image:
   - https://blognot.co/wp-content/uploads/2019/12/dseifert_190414_3374_3942.0.jpg
 essb_cache_expire:

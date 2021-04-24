@@ -2,7 +2,8 @@
 title: "Чудеса машинного обучения"
 date: 2021-04-08T10:04:31+03:00
 draft: false
-featuredImg: "/img/Promotions 2021-04-08 10-00-46.png"
+images:
+  - https://blognot.co/img/Promotions 2021-04-08 10-00-46.png"
 tags:
   - ecommerce
   - Розетка

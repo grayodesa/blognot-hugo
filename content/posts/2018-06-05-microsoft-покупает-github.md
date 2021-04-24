@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2018-06-05T07:20:56+00:00
 url: /56289
-featured_image: https://blognot.co/wp-content/uploads/2018/06/microsoftgithublove.0.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2018/06/microsoftgithublove.0.jpg
 bluth_post_layout:
   - right_side
 ampforwp-amp-on-off:

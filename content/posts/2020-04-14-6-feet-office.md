@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2020-04-14T06:44:14+00:00
 url: /59287
-featured_image: https://blognot.co/wp-content/uploads/2020/04/hero-6fo-desktop-shared-image.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2020/04/hero-6fo-desktop-shared-image.jpg
 essb_cached_image:
   - https://blognot.co/wp-content/uploads/2020/04/hero-6fo-desktop-shared-image.jpg
 essb_cache_expire:

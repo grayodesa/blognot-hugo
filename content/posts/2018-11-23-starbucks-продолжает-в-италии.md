@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2018-11-23T13:21:16+00:00
 url: /57052
-featured_image: https://blognot.co/wp-content/uploads/2018/11/Starbucks_cup-1024x586.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2018/11/Starbucks_cup-1024x586.jpg
 bluth_post_layout:
   - right_side
 ampforwp-amp-on-off:

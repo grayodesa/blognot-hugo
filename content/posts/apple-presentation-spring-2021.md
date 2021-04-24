@@ -3,7 +3,7 @@ title: "Презентация Apple весной 2021 года"
 date: 2021-04-20T23:48:14+03:00
 draft: false
 images:
-  - /img/apple_ipad-pro-spring21_hero_04202021_big.jpg.large_2x.jpg
+  - https://blognot.co/img/apple_ipad-pro-spring21_hero_04202021_big.jpg.large_2x.jpg
   - /img/Apple_unveils-the-next-gen-of-AppleTV4K_042021_big.jpg.large_2x.jpg
   - /img/colors_hero_fallback__co1mroy32piu_large_2x.jpg
 tags:

@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2014-01-09T10:47:59+00:00
 url: /11566
-featured_image: https://blognot.co/wp-content/uploads/2014/01/blackberry_keyboard-1.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2014/01/blackberry_keyboard-1.jpg
 wp-to-buffer:
   - 'a:4:{i:0;a:3:{s:2:"id";s:24:"52ce7e66cfd8b5d209000008";s:15:"profile_service";s:8:"facebook";s:10:"created_at";i:1389264486;}i:1;a:3:{s:2:"id";s:24:"52ce7e66cfd8b5d209000009";s:15:"profile_service";s:7:"twitter";s:10:"created_at";i:1389264486;}i:2;a:3:{s:2:"id";s:24:"52ce7e67cfd8b5d20900000a";s:15:"profile_service";s:8:"linkedin";s:10:"created_at";i:1389264487;}i:3;a:3:{s:2:"id";s:24:"52ce7e67cfd8b5d20900000b";s:15:"profile_service";s:8:"facebook";s:10:"created_at";i:1389264487;}}'
 wp-to-buffer-pro:

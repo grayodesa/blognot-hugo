@@ -2,7 +2,8 @@
 title: "Забавный баннизм"
 date: 2021-04-10T12:09:15+03:00
 draft: false
-featuredImg: "/img/News+2021-04-10-12-04-49.png"
+images:
+  - https://blognot.co/img/News+2021-04-10-12-04-49.png"
 tags:
   - баннизм
 url: /60581/

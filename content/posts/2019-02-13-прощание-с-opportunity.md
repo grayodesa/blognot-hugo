@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2019-02-13T12:52:58+00:00
 url: /57431
-featured_image: https://blognot.co/wp-content/uploads/2019/02/edu_rover_large.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2019/02/edu_rover_large.jpg
 ytrssenabled_meta_value:
   - no
 ytremove_meta_value:

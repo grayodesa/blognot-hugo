@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2014-06-15T09:42:30+00:00
 url: /11906
-featured_image: https://blognot.co/wp-content/uploads/2014/06/chromecast.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2014/06/chromecast.jpg
 wp-to-buffer-pro:
   - 'a:4:{s:8:"override";s:1:"0";s:7:"message";s:0:"";s:6:"number";s:1:"1";s:16:"alternateMessage";s:0:"";}'
 bluth_post_layout:

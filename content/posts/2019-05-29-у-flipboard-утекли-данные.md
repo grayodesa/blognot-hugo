@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2019-05-29T13:52:35+00:00
 url: /57686
-featured_image: https://blognot.co/wp-content/uploads/2019/05/flipboard.png
+images:
+  -  https://blognot.co/wp-content/uploads/2019/05/flipboard.png
 essb_cached_image:
   - https://blognot.co/wp-content/uploads/2019/05/flipboard.png
 essb_cache_expire:

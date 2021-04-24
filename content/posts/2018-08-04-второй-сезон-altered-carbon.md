@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2018-08-04T10:08:22+00:00
 url: /56911
-featured_image: https://blognot.co/wp-content/uploads/2018/08/anthony-mackie.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2018/08/anthony-mackie.jpg
 essb_cache_expire:
   - 1616340494
 snap_isAutoPosted:

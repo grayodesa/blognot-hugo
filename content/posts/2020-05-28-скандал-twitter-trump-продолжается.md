@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2020-05-28T07:43:54+00:00
 url: /59556
-featured_image: https://blognot.co/wp-content/uploads/2020/05/Снимок-экрана-2020-05-27-в-10.05.58.png
+images:
+  -  https://blognot.co/wp-content/uploads/2020/05/Снимок-экрана-2020-05-27-в-10.05.58.png
 essb_cached_image:
   - https://blognot.co/wp-content/uploads/2020/05/Снимок-экрана-2020-05-27-в-10.05.58.png
 essb_cache_expire:

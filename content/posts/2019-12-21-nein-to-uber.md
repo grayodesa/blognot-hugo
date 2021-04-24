@@ -4,7 +4,8 @@ author: Gray
 type: posts
 date: 2019-12-21T11:52:20+00:00
 url: /58250
-featured_image: https://blognot.co/wp-content/uploads/2016/08/uber-mass.jpg
+images:
+  -  https://blognot.co/wp-content/uploads/2016/08/uber-mass.jpg
 essb_cached_image:
   - https://blognot.co/wp-content/uploads/2016/08/uber-mass.jpg
 essb_cache_expire:
