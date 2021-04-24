@@ -14,6 +14,8 @@ jobs:
       with:
         submodules: true  # Fetch Hugo themes (true OR recursive)
     - uses: klakegg/actions-hugo@1.0.0
+      with:
+        commang: --minify
     - uses: up9cloud/action-rsync@master
       env:
         HOST: remark.blognot.co
