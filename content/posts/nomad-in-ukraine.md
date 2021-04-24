@@ -3,7 +3,7 @@ title: "Впечатления кочевника от Украины"
 date: 2021-04-03T12:19:52+03:00
 draft: false
 images:
-  - https://blognot.co/img/IRMarch2021.jpg"
+  - https://blognot.co/img/IRMarch2021.jpg
 tags:
   - украина
 url: /60521/

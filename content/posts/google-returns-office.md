@@ -6,7 +6,8 @@ tags:
   - google
   - пандемия
   - удалённая работа
-featuredImg: https://blognot.co/wp-content/uploads/2021/04/iStock-1212129910.jpg
+images:
+  - https://blognot.co/wp-content/uploads/2021/04/iStock-1212129910.jpg
 url: /60490
 ---
 

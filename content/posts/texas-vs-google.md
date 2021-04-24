@@ -2,7 +2,6 @@
 title: "Texas vs Google"
 date: 2021-04-12T10:03:01+03:00
 draft: false
-featuredImg: ""
 tags:
   - google
 url: /60588
