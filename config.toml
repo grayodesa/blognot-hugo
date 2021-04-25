@@ -41,3 +41,11 @@ url = "https://www.youtube.com/c/grayru"
 enableEmoji = true
 summarylength = 200
 unsafe = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "Обо мне"
+    url = "/about/"
+    weight = -110
