@@ -7,7 +7,7 @@ title = "БлоGнот"
 theme = "mainroad"
 paginate = "15"
 rssLimit = "25"
-ignoreFiles = ["\\.jpg$","\\.png$","\\.webp$","\\.gif$","\\.jpeg$"]
+#ignoreFiles = ["\\.jpg$","\\.png$","\\.webp$","\\.gif$","\\.jpeg$"]
 
 [Params]
 dateformat = "02-01-2006"
