@@ -3,7 +3,7 @@ title: "Новости про Epic и Apple"
 date: 2021-04-28T11:30:42+03:00
 draft: false
 images:
-  - https://blognot.com/img/apple-epic.png
+  - https://blognot.co/img/apple-epic.png
 tags:
   - apple
   - epic
