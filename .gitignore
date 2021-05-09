@@ -15,3 +15,4 @@ Dockerfile
 fly.toml
 content/.DS_Store
 content/.DS_Store
+.vscode/sftp.json
