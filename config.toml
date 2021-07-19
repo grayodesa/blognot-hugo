@@ -7,7 +7,7 @@ title = "БлоGнот"
 theme = "mainroad"
 paginate = "15"
 rssLimit = "25"
-ignoreFiles = ["\\.jpg$","\\.png$","\\.webp$","\\.gif$","\\.jpeg$"]
+#ignoreFiles = ["\\.jpg$","\\.png$","\\.webp$","\\.gif$","\\.jpeg$"]
 ignoreFiles = ["\\.mp4$","\\.m4v$"]
 
 [Params]
