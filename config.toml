@@ -1,6 +1,9 @@
 baseURL = "https://blognot.co/"
 #disqusShortname = "blognot"
 googleAnalytics = "UA-11591143-1"
+
+# Google Analytics 4
+googleAnalyticsID = "G-ZQ5KPV6YTY"
 languageCode = "ru"
 defaultContentLanguage = "ru"
 title = "БлоGнот"
