@@ -3,7 +3,7 @@ baseURL = "https://blognot.co/"
 googleAnalytics = "UA-11591143-1"
 
 # Google Analytics 4
-googleAnalyticsID = "G-ZQ5KPV6YTY"
+GoogleAnalyticsID = "G-ZQ5KPV6YTY"
 languageCode = "ru"
 defaultContentLanguage = "ru"
 title = "БлоGнот"
