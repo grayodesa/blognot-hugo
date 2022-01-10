@@ -52,3 +52,14 @@ unsafe = true
     name = "Обо мне"
     url = "/about/"
     weight = -110
+  [[menu.main]]
+    identifier = "patreon"
+    name = "Patreon"
+    url = "https://www.patreon.com/blognot"
+    weight = -100
+  [[menu.main]]
+    identifier = "rss"
+    name = "RSS"
+    pre = "<i class='fa-solid fa-rss'></i>"
+    url = "/index.xml"
+    weight = -50
