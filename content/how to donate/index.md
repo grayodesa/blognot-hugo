@@ -18,18 +18,18 @@ url : /donate
 Пополнение из-за границы в USD
 
 Beneficiary (Бенефіціар)
-IBAN UA 09 322001 00000 2620 8303 1282 37
-Account No 26208303128237
-Receiver PETRENKO SERHII
+IBAN UA 09 322001 00000 2620 8303 1282 37  
+Account No 26208303128237  
+Receiver PETRENKO SERHII  
 
 
-Account with Institution (Банк Бенефіціара)
-Bank 
-JSC UNIVERSAL BANK
-City
-KYIV, UKRAINE
-Swift code
-UNJSUAUKXXX
+Account with Institution (Банк Бенефіціара)  
+Bank   
+JSC UNIVERSAL BANK  
+City  
+KYIV, UKRAINE  
+Swift code  
+UNJSUAUKXXX  
 
 
 Details of payment (Призначення платежу)
