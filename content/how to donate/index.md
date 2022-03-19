@@ -38,18 +38,18 @@ Details of payment (Призначення платежу)
 
 Пополнение из-за границы в EUR
 
-Account number (IBAN)
-GB84CLJU00997180237490
-BIC
-CLJUGB21
-Account Holder Name
-PETRENKO SERHII
-TIN (Taxpayer Identification Number)
-2726712954
-Bank
-Clear Junction Limited
-Bank address
-15 Kingsway, London WC2B 6UN
+Account number (IBAN)  
+GB84CLJU00997180237490  
+BIC  
+CLJUGB21  
+Account Holder Name  
+PETRENKO SERHII  
+TIN (Taxpayer Identification Number)  
+2726712954  
+Bank  
+Clear Junction Limited  
+Bank address  
+15 Kingsway, London WC2B 6UN  
 
 PayPal — sergey.petrenko@gmail.com
 
