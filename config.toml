@@ -66,5 +66,5 @@ unsafe = true
   [[menu.main]]
     identifier = "Donate"
     name = "Donate"
-    url = "/donate
+    url = "/donate/"
     weight = -30
