@@ -32,10 +32,10 @@ recent_num = 7
 tags_counter = true
 [Params.widgets.social]
 facebook = "sergey.petrenko"
-instagram = "grayru"
+instagram = "grayodesa"
 linkedin = "username"
 telegram = "blognot"
-twitter = "gray_ru"
+twitter = "GrayOdesa"
 [[Params.widgets.social.custom]]
 icon = "svg/youtube.svg"
 title = "Youtube"
