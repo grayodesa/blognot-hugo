@@ -63,8 +63,8 @@ unsafe = true
     pre = "<i class='fa-solid fa-rss'></i>"
     url = "/index.xml"
     weight = -50
-  [[menu.main]]
-    identifier = "Donate"
-    name = "Donate"
-    url = "/donate/"
-    weight = -30
+#  [[menu.main]]
+#    identifier = "Donate"
+#    name = "Donate"
+#    url = "/donate/"
+#    weight = -30
