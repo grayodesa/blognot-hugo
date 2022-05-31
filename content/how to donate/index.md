@@ -2,7 +2,7 @@
 title: Donate
 author: Gray
 type: page
-date: 2022-03-19T06:56:55+00:00
+date: 2022-06-01T00:56:55+00:00
 url : /donate
 ---
 Привет!
