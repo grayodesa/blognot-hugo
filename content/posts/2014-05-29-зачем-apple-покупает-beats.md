@@ -5,7 +5,7 @@ type: posts
 date: 2014-05-29T06:06:03+00:00
 url: /11873
 images:
-  -  https://blognot.co/wp-content/uploads/2020/04/IMG_0319_bmqreq.jpg
+  -  /wp-content/uploads/2020/04/IMG_0319_bmqreq-800x400.webp
 wp-to-buffer-pro:
   - 'a:4:{s:8:"override";s:1:"0";s:7:"message";s:0:"";s:6:"number";s:1:"1";s:16:"alternateMessage";s:0:"";}'
 bluth_post_layout:
