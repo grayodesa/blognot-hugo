@@ -3,7 +3,7 @@ title: "Печальное про эмиграцию"
 date: 2022-06-09T13:00:03+03:00
 draft: false
 images:
-  - images/feature.jpg
+  - img/crimea.jpg
 tags:
   - война
   - эмиграция
