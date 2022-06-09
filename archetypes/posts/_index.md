@@ -6,6 +6,6 @@ images:
   - images/feature.jpg
 tags:
   - 
-slug: {{ partial "slugify.html" .Name }}
+url: /{{ partial "slugify.html" .Name }}
 
 ---
