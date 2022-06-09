@@ -8,7 +8,7 @@ title = "БлоGнот"
 theme = "mainroad"
 paginate = "15"
 rssLimit = "25"
-ignoreFiles = ["\\.jpg$","\\.png$","\\.webp$","\\.gif$","\\.jpeg$","\\.mp4$","\\.m4v$"]
+#ignoreFiles = ["\\.jpg$","\\.png$","\\.webp$","\\.gif$","\\.jpeg$","\\.mp4$","\\.m4v$"]
 
 [Params]
 # Google Analytics 4
