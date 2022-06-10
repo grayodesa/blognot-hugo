@@ -8,7 +8,10 @@ on:
 
 jobs:
   build:
-    image: klakegg/0.95.0-ext-ubuntu
+    strategy:
+      matrix:
+        image: [ ext-alpine ]
+        
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
