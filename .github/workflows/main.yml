@@ -10,7 +10,6 @@ jobs:
   build:
     strategy:
       matrix:
-        version: [ 0.99.0 ]
         image: [ ext-alpine ]
 
     runs-on: ubuntu-latest
@@ -21,7 +20,6 @@ jobs:
     - uses: klakegg/actions-hugo@1.0.0
       with:
         command: --minify
-        version: ${{ matrix.version }}
         image: ${{ matrix.image }}
     - uses: up9cloud/action-rsync@master
       env:
