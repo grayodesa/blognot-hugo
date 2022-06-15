@@ -3,7 +3,7 @@ title: "Coinbase как показатель криптозимы"
 date: 2022-06-15T13:30:35+03:00
 draft: false
 images:
-  -1*dgwZL1alj1U0CUc1d-JO8Q.png
+  - dgwZL1alj1U0CUc1d-JO8Q.png
 tags:
   - крипто
   - стартапы
