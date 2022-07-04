@@ -63,4 +63,6 @@ BTC — 343ypLkZqqdppEehJxGGLrWFZQ6TckdfUu
 
 ETH — 0x621398403993a0Dde05DF9612166A73D7B246855
 
+USDT - TJkSAAmZfJpDQqp3JQ6PwACU2bvJTxdBDf
+
 Все аккаунты и карты — мои личные, я их полностью контролирую и гарантирую, что все поступления будут направлены по назначению.
