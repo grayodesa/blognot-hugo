@@ -5,7 +5,9 @@ draft: false
 images:
   - 
 tags:
-  - 
+  - война
+  - транспорт
+  - железные дороги
 url: /v-galats-po-shirokoj-kolee
 
 ---

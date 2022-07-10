@@ -5,7 +5,8 @@ draft: false
 images:
   - 
 tags:
-  - 
+  - война
+  - россия
 url: /khoroshie-russkie-s-nevernym-pritselom
 
 ---
